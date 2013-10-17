@@ -28,8 +28,6 @@ def sum_to_n? values, target
 			values.each_with_index do |sib, sib_index|
 				if index !=sib_index
 					if item+sib == target
-						puts item
-						puts sib
 						return true
 					end
 				end
